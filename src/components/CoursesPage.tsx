@@ -156,7 +156,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onNavigate }) => {
               href="tel:+15551234567"
               className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors"
             >
-              Call Us: (555) 123-4567
+              Call Us: (+91) 9535035171
             </a>
           </div>
         </div>
