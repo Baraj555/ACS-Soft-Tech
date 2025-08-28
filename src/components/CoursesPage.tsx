@@ -153,7 +153,7 @@ const CoursesPage: React.FC<CoursesPageProps> = ({ onNavigate }) => {
               Schedule Consultation
             </button>
             <a
-              href="tel:+15551234567"
+              href="tel:+919535035171"
               className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors"
             >
               Call Us: (+91) 9535035171
