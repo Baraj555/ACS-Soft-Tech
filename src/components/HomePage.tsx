@@ -32,25 +32,25 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
 
   const testimonials = [
     {
-      name: 'Sarah Veeramasetti',
+      name: 'Sirisha Veeramasetti',
       role: 'Full Stack Developer at Capgemini',
       rating: 5,
       text: 'ACS Soft Tech transformed my career. The hands-on projects and expert guidance helped me land my dream job.',
       image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg'
     },
     {
-      name: 'Soma Shankar K',
+      name: 'Siva Pravallika K',
       role: 'Software Engineer at EY',
       rating: 5,
       text: 'Best investment I ever made. The curriculum is up-to-date and the instructors are incredibly knowledgeable.',
-      image: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg'
+      image: 'https://images.pexels.com/photos/1040586/pexels-photo-1040586.jpeg'
     },
     {
-      name: 'Vijaya Durga P',
+      name: 'Sai Vikas P',
       role: 'Data Scientist at Infosys',
       rating: 5,
       text: 'The data science program exceeded my expectations. Real projects and industry connections made all the difference.',
-      image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg'
+      image: 'https://images.pexels.com/photos/1040848/pexels-photo-1040848.jpeg'
     }
   ];
 
