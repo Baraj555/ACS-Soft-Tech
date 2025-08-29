@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BookOpen, Users, AtSign as RupeeSign, TrendingUp, Clock, CheckCircle, XCircle, Edit, Trash2, Award, Code } from 'lucide-react';
+import { BookOpen, Users, IndianRupee, TrendingUp, Clock, CheckCircle, XCircle, Edit, Trash2, Award, Code } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { PageType } from '../App';
 
@@ -91,11 +91,11 @@ const AdminPage: React.FC<AdminPageProps> = ({ onNavigate }) => {
             <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
               <div className="flex items-center">
                 <div className="bg-green-100 p-3 rounded-lg">
-                  <DollarSign className="h-6 w-6 text-green-600" />
+                  <IndianRupee className="h-6 w-6 text-green-600" />
                 </div>
                 <div className="ml-4">
                   <p className="text-sm font-medium text-gray-600">Total Revenue</p>
-                  <p className="text-2xl font-bold text-gray-900">${totalRevenue.toLocaleString()}</p>
+                  <p className="text-2xl font-bold text-gray-900">₹{totalRevenue.toLocaleString()}</p>
                 </div>
               </div>
             </div>
@@ -220,7 +220,7 @@ const AdminPage: React.FC<AdminPageProps> = ({ onNavigate }) => {
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-green-600">
-                        ${enrollment.price.toLocaleString()}
+                        ₹{enrollment.price.toLocaleString()}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm font-medium">
                         <div className="flex space-x-2">
