@@ -215,7 +215,7 @@ function App() {
                   </div>
                   <div className="flex items-center text-gray-400">
                     <MapPin className="h-4 w-4 mr-3" />
-                    <span>12-18 Floor KBHP Face 7<br />Hyderabad Telangana, IN 500085</span>
+                    <span>12-18 Floor KBHP Phase 7<br />Hyderabad Telangana, IN 500085</span>
                   </div>
                 </div>
               </div>
@@ -236,7 +236,7 @@ function App() {
             </div>
             
             <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-              <p>&copy; 2025 ACS Soft Tech. All rights reserved.</p>
+              <p>&copy; 2024 ACS Soft Tech. All rights reserved.</p>
             </div>
           </div>
         </footer>
