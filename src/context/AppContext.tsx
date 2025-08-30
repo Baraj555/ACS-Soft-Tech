@@ -116,7 +116,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       duration: 12,
       price: 30000,
       image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg',
-      features: ['3M CodeFinder / 3M 360 Encompass', 'Optum EncoderPro.com', 'AHIMA CLiNQ', 'Medicode / SuperCoder (AAPC)', 'Find-A-Code' ],
+      features: ['Human Anatomy and Physiology', 'ICD 10 CM Guidelines', 'IPDRG Cross Training', 'Basic/Advanced Medical coding', 'Leading a code in 3M Solventum'],
       level: 'Intermediate',
       instructor: 'Dr. Ravi Prathap',
       category: 'Medical Coding',
